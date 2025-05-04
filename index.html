@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Online</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="dark">
+  <header>
+    <h1 class="titulo">Calculadora Online</h1>
+    <label class="theme-switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider round">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+      </span>
+    </label>
+  </header>
+
+  <div class="calculator">
+    <div class="output">
+      <div id="prev-display" class="prev-display"></div>
+      <div id="curr-display" class="curr-display"></div>
+    </div>
+
+    <button id="clear" class="span-2 clear">AC</button>
+    <button id="delete" class="delete">DEL</button>
+    <button class="operator">/</button>
+
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+    <button class="operator">+</button>
+
+    <button class="number">4</button>
+    <button class="number">5</button>
+    <button class="number">6</button>
+    <button class="operator">-</button>
+
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+    <button class="operator">*</button>
+
+    <button class="number">.</button>
+    <button class="number">0</button>
+    <button id="equal" class="span-2 equal">=</button>
+  </div>
+
+  <footer class="credit">Site feito por Isaac ©</footer>
+</body>
+</html>
