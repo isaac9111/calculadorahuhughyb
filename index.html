@@ -3,22 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Calculadora Online</title>
+  <title>Calculadora</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body class="dark">
-  <header>
-    <h1 class="titulo">Calculadora Online</h1>
-    <label class="theme-switch">
-      <input type="checkbox" id="theme-toggle">
-      <span class="slider round">
-        <span class="icon-sun">☀️</span>
-        <span class="icon-moon">🌙</span>
-      </span>
-    </label>
-  </header>
-
+  <h1 class="app-title">Calculadora historico</h1>
+  
+  <label class="theme-switch">
+    <input type="checkbox" id="theme-toggle">
+    <span class="slider round"></span>
+  </label>
+  
   <div class="calculator">
     <div class="output">
       <div id="prev-display" class="prev-display"></div>
@@ -49,6 +45,7 @@
     <button id="equal" class="span-2 equal">=</button>
   </div>
 
-  <footer class="credit">Site feito por Isaac ©</footer>
+  <h3 class="history-title">Histórico de Cálculos</h3>
+  <ul id="history" class="history-list"></ul>
 </body>
 </html>
